@@ -2,9 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Deployments
 
-CloudFront - https://d1zp2xu1aesga3.cloudfront.net
-
-S3-website - http://yevgeniya-rss-aws.s3-website-us-east-1.amazonaws.com
+CloudFront - d1xzyyj06tw75a.cloudfront.net
 
 ## Available Scripts
 
