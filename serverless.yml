@@ -1,10 +1,10 @@
-service: node-in-aws-web
+service: yevgeniya-rss-aws
 
 frameworkVersion: '2'
 
 provider:
   name: aws
-  runtime: nodejs12.x
+  runtime: nodejs14.x
   # setup profile for AWS CLI.
   # profile: node-aws
 
@@ -17,7 +17,7 @@ plugins:
 
 custom:
   client:
-    bucketName: node-in-aws-web-bucket
+    bucketName: yevgeniya-rss-aws
     distributionFolder: build
   s3BucketName: ${self:custom.client.bucketName}
 
